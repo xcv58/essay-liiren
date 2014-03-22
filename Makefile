@@ -1,2 +1,2 @@
 default:
-	latexmk -pdf *.tex && latexmk -c
+	latexmk -pdf -interaction=nonstopmode *.tex && latexmk -c
